@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+        
+    <head>
+    <title>Document</title>
+    <link href="../Form_validation/index.css" rel="stylesheet">
+    </head>
+        <body id="form">
+          <div class="content">
+            <h2 style="margin-left: 50px;">  Customer Details:</h2><hr>
+            <form name="demoform">
+                <label for="fullname"> Full Name:</label><br>
+                <input type="text" class="name"  id="fname" name="fname" >
+                <input type="text" class="name" id="lastname" name="lastname" >
+                <br>
+                <label class="fname">firstname</label>
+                <label class="lname">lastname</label><br><br>
+                <label for="password">password:</label><br>
+                <input type="password" name="password" class="passwd"><br><br>
+                <label for="Address">Address:</label><br>
+                <input type="text" id="address" class="Address" name="Address"><br>
+                <label class="fname">street address </label><br><br>
+                <input type="text" class="Address">
+                <br>
+                <label class="fname">street address line 2 </label><br><br>
+                <input type="text" id="city" name="city" class="city">
+                <input type="text" id="state" name="state" class="city"><br>
+                <label class="fname">city </label>
+                <label class="state" >state/province</label><br><br>
+                <input type="text" class="number" id="code" name="code"><br>
+                <label class="fname">postal/Zip code</label>
+                <br><br>
+                <label>Phone Number</label><br>
+                <input type="text" class="number" id="ph_no" name="ph_no" placeholder="(000)000-0000" ><br>
+                <br><br>
+                <label for="email">E-mail</label><br>
+                <input type="text" name="email" class="passwd" placeholder="ex:example@gmail.com"><br>
+                <label class="fname">Example@example.com</label>
+                <br>
+                <br>
+                <p>How did you here about us?
+                    <select name="dropdown">
+                      <option>select</option>
+                        <option>Magazine</option>
+                        <option>any person</option>
+                        <option>media/news</option>
+                    </select>
+                </p>
+                <br>
+                <p>Gender: <input type="radio" value="Male" name="gender">Male
+                            <input type="radio"value="female" name="gender">female
+                            <input type="radio"value="Others" name="gender">Others
+                </p>
+                <label>I agree to the terms and conditions<input type="checkbox" name="checkbox"></label> 
+                <pre>
+                </pre> 
+                 
+                <hr><br>
+                <input type="button" class="button"  onclick="validation()" value="Submit"></input><br><br>
+                
+                 
+        
+            </form>
+          </div>  
+          <script src="../Form_validation/index.js"></script>
+        </body>
+        </html>
+         
+          

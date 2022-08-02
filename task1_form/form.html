@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  body{background-color: lightgrey ;}
+  .content{max-width: 700px;margin:auto;background-color:white;padding:10px}
+</style>
+<body>
+  <div class="content">
+    <h2 style="margin-left: 50px;">Customer Details:</h2><hr>
+    <form>
+        <label for="fullname"> Full Name:</label><br>
+        <input type="text" style="width:46%;height:20px;">
+        <input type="text" style="width:46%;height:20px;">
+        <br>
+        <label style="position:relative;font-size:x-small;">firstname</label>
+        
+        <label style="position:relative;font-size:x-small;left:290px;">lastname</label><br><br>
+        <label for="Address">Address:</label><br>
+        <input type="text" style="width:93%;height:20px;"><br>
+        <label style="position:relative;font-size:x-small;">street address </label><br><br>
+        <input type="text" style="width:93%;height:20px;">
+        <br>
+        <label style="position:relative;font-size:x-small;">street address line 2 </label><br><br>
+        <input type="text" style="width:46%;height:20px;">
+        <input type="text" style="width:46%;height:20px;"><br>
+        <label style="position:relative;font-size:x-small;">city </label>
+        <label style="position:relative;font-size:x-small;left:190px">sate/province</label><br><br>
+        <input type="text" style="width:46%;height:20px;"><br>
+        <label style="position:relative;font-size:x-small;">postal/Zip code</label>
+        <br><br>
+        <label for="ph-no">Phone Number</label><br>
+        <input type="text" placeholder="(000)000-0000" style="width:46%;height:20px;"><br>
+        <br><br>
+        <label for="email">E-mail</label><br>
+        <input type="text" placeholder="ex:example@gmail.com" style="width:20%;height:20px;"><br>
+        <label style="position:relative;font-size:x-small;">Example@example.com</label>
+        <br>
+        <br>
+        <p>How did you here about us?
+            <select>
+                <option>Magazine</option>
+                <option>any person</option>
+                <option>media/news</option>
+            </select>
+        </p>
+        <br><br>
+        <label for="feedback">Feedback about us:</label><br>
+        <textarea rows="5" cols="40"></textarea>
+        <br><br>
+        <label for="suggestions">suggestions if any for further improvement:</label><br>
+        <textarea rows="5" cols="40"></textarea> 
+        <p> Will you be willing to recommented us? <input type="checkbox"></p>
+        <p>Gender: <input type="radio" value="Male" name="gender">Male
+                    <input type="radio"value="female" name="gender">female
+                    <input type="radio"value="Others" name="gender">Others</p>
+        <label>Please give reference of any two people whom you feel:</label>
+        <table style="width:48%">
+            <tr>
+              <th>       </th>
+              <th style="background-color:lightgray ;padding: 12px 12px;">full name</th>
+              <th style="background-color:lightgray"> Address </th> 
+              <th style="background-color:lightgray">Contact Number</th>
+            </tr>
+            <tr>
+              <td style="background-color:lightgrey;padding: 12px 12px;">1</td>
+              <td>        </td>
+              <td>        </td>
+              <td>        </td>
+            </tr>
+            <tr>
+                <td style="background-color:lightgrey;padding: 12px 12px;">2</td>
+                <td>          </td>
+                <td>        </td>
+                <td>          </td>
+              </tr>
+        </table>
+        <pre>
+        </pre>
+         
+         
+          <input type="submit" value="Submit" style="background-color:green;"</input>
+        
+         
+
+    </form>
+  </div>  
+</body>
+</html>
